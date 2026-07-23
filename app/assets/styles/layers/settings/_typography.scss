@@ -1,0 +1,25 @@
+@use '../tools' as *;
+
+:root {
+  --font-family-base: 'Inter', sans-serif;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --font-size-xs: #{rem(14)};
+  --font-size-sm: #{rem(16)};
+  --font-size-base: #{rem(18)};
+  --font-size-lg: #{rem(20)};
+  --font-size-xl: #{rem(24)};
+  --font-size-2xl: #{rem(28)};
+  --font-size-3xl: #{rem(32)};
+  --font-size-4xl: #{rem(40)};
+  --font-size-5xl: #{rem(48)};
+  --font-size-6xl: #{rem(64)};
+  --font-size-7xl: #{rem(72)};
+  --font-size-8xl: #{rem(96)};
+  --font-size-9xl: #{rem(120)};
+  --font-size-10xl: #{rem(144)};
+}

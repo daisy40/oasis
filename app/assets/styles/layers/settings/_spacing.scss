@@ -1,0 +1,20 @@
+@use '../tools' as *;
+
+:root {
+  --space-0: 0;
+  --space-xs: #{rem(4)};
+  --space-sm: #{rem(8)};
+  --space-md: #{rem(12)};
+  --space-lg: #{rem(16)};
+  --space-xl: #{rem(24)};
+  --space-2xl: #{rem(32)};
+  --space-3xl: #{rem(40)};
+  --space-4xl: #{rem(48)};
+  --space-5xl: #{rem(64)};
+  --space-6xl: #{rem(80)};
+  --space-7xl: #{rem(96)};
+  --space-8xl: #{rem(112)};
+  --space-9xl: #{rem(128)};
+  --space-10xl: #{rem(144)};
+  --space-11xl: #{rem(160)};
+}

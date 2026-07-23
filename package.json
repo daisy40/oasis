@@ -1,0 +1,45 @@
+{
+  "name": "rwps",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint:style": "stylelint \"**/*.{css,scss,vue}\"",
+    "lint:style:fix": "stylelint \"**/*.{css,scss,vue}\" --fix"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "1.16.0",
+    "@nuxt/fonts": "0.14.0",
+    "@nuxt/icon": "2.3.1",
+    "@nuxt/image": "2.0.0",
+    "@nuxtjs/seo": "5.3.2",
+    "@pinia/nuxt": "0.11.3",
+    "@resvg/resvg-js": "^2.6.2",
+    "@vueuse/core": "^14.3.0",
+    "eslint": "^10.6.0",
+    "nuxt": "^4.4.8",
+    "pinia": "^3.0.4",
+    "satori": "^0.26.0",
+    "vue": "^3.5.39",
+    "vue-router": "^5.1.0"
+  },
+  "devDependencies": {
+    "@csstools/postcss-global-data": "^4.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.63.0",
+    "@typescript-eslint/parser": "^8.63.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "postcss-custom-media": "^12.0.1",
+    "postcss-html": "^1.8.1",
+    "postcss-scss": "^4.0.9",
+    "prettier": "^3.9.5",
+    "sass-embedded": "^1.100.0",
+    "stylelint": "^17.14.0",
+    "stylelint-config-recess-order": "^7.7.0",
+    "stylelint-order": "^8.1.1"
+  }
+}

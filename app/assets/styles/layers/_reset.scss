@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  text-align: left;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+
+  &:focus,
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+summary {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
+
+fieldset {
+  border: none;
+}
